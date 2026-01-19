@@ -18,7 +18,7 @@ def main():
 
     print("[Boss] Envoi des tâches")
     for i in range(NUM_TASKS):
-        task_q.put(Task(identifier=i, size=200))
+        task_q.put(Task(identifier=i, size=3000))
 
     start = time.perf_counter()
 
